@@ -1,0 +1,17 @@
+
+
+Use Master
+
+
+CREATE DATABASE CRDM 
+ON
+PRIMARY ( 
+      NAME = CRDMDB, 
+      FILENAME = 'D:\CRDMData\CRDMDB.mdf'
+), FILEGROUP CRDMFS CONTAINS FILESTREAM( 
+      NAME = CRDMFS,
+    FILENAME = 'D:\CRDMData\CRDMFS')
+LOG ON (                         
+      NAME = CRDMLOG,
+    FILENAME = 'D:\CRDMData\CRDMLOG.ldf')
+GO

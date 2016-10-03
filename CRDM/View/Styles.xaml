@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:CRDM.View">
+    <Style TargetType="TextBox">
+        <Setter Property="Margin" Value="5,5"/>
+    </Style>
+    <Style TargetType="RadioButton">
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="Height" Value="21"/>
+        <Setter Property="Width" Value="80"/>
+    </Style>
+    <Style TargetType="DataGrid">
+        <Setter Property="CanUserAddRows" Value="False"/>
+        <Setter Property="AutoGenerateColumns" Value="False"/>
+        <Setter Property="CanUserDeleteRows" Value="False"/>
+    </Style>
+    
+</ResourceDictionary>
